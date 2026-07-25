@@ -1,0 +1,50 @@
+name: Update KR holidays
+
+on:
+  schedule:
+    # UTC 기준. 매월 1일 20:00 UTC = 매월 2일 05:00 KST
+    - cron: "0 20 1 * *"
+    # 임시공휴일 대응이 필요하면 아래 한 줄을 추가로 켜세요 (매주 월요일)
+    - cron: "0 20 * * 1"
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "강제 조회할 연도 (예: 2026,2027). 비우면 자동"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-holidays
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch holidays
+        env:
+          DATA_GO_KR_SERVICE_KEY: ${{ secrets.DATA_GO_KR_SERVICE_KEY }}
+          YEARS: ${{ inputs.years }}
+          OUT_DIR: kr
+        run: python scripts/fetch_holidays.py
+
+      - name: Commit & push if changed
+        run: |
+          if [ -z "$(git status --porcelain kr)" ]; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kr
+          git commit -m "chore(kr): update holidays $(date -u +%Y-%m-%d)"
+          git push
