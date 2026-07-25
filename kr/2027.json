@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "country": "KR",
+  "year": 2027,
+  "updatedAt": "2026-07-25T12:42:36Z",
+  "revision": 1,
+  "hash": "sha256:9a0519cc99e7a92fc3b291e5ea75e472fdfcec48a20be4831b753c1670cb14e7",
+  "count": 24,
+  "source": "https://www.data.go.kr/data/15012690/openapi.do",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "1월1일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Fri"
+    },
+    {
+      "date": "2027-02-06",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2027-02-07",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sun"
+    },
+    {
+      "date": "2027-02-08",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-02-09",
+      "name": "대체공휴일(설날)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2027-03-01",
+      "name": "삼일절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "노동절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2027-05-03",
+      "name": "대체공휴일(노동절)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-05-05",
+      "name": "어린이날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2027-05-13",
+      "name": "부처님오신날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Thu"
+    },
+    {
+      "date": "2027-06-06",
+      "name": "현충일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sun"
+    },
+    {
+      "date": "2027-07-17",
+      "name": "제헌절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2027-07-19",
+      "name": "대체공휴일(제헌절)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-08-15",
+      "name": "광복절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sun"
+    },
+    {
+      "date": "2027-08-16",
+      "name": "대체공휴일(광복절)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-09-14",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2027-09-15",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2027-09-16",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Thu"
+    },
+    {
+      "date": "2027-10-03",
+      "name": "개천절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sun"
+    },
+    {
+      "date": "2027-10-04",
+      "name": "대체공휴일(개천절)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "한글날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2027-10-11",
+      "name": "대체공휴일(한글날)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "기독탄신일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2027-12-27",
+      "name": "대체공휴일(기독탄신일)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    }
+  ]
+}
