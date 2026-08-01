@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "country": "KR",
+  "year": 2028,
+  "updatedAt": "2026-08-01T20:57:01Z",
+  "revision": 1,
+  "hash": "sha256:60de4789eb5bd22c3a8055c4c5b8b95926dd9990dae6b83f21f6f01834cd697b",
+  "count": 19,
+  "source": "https://www.data.go.kr/data/15012690/openapi.do",
+  "holidays": [
+    {
+      "date": "2028-01-01",
+      "name": "1월1일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Sat"
+    },
+    {
+      "date": "2028-01-26",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2028-01-27",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Thu"
+    },
+    {
+      "date": "2028-01-28",
+      "name": "설날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Fri"
+    },
+    {
+      "date": "2028-03-01",
+      "name": "삼일절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2028-04-12",
+      "name": "국회의원선거일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2028-05-01",
+      "name": "노동절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2028-05-02",
+      "name": "부처님오신날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2028-05-05",
+      "name": "어린이날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Fri"
+    },
+    {
+      "date": "2028-06-06",
+      "name": "현충일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2028-07-17",
+      "name": "제헌절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2028-08-15",
+      "name": "광복절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2028-10-02",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2028-10-03",
+      "name": "개천절",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2028-10-03",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Tue"
+    },
+    {
+      "date": "2028-10-04",
+      "name": "추석",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Wed"
+    },
+    {
+      "date": "2028-10-05",
+      "name": "대체공휴일(추석)",
+      "type": "substitute",
+      "isHoliday": true,
+      "dayOfWeek": "Thu"
+    },
+    {
+      "date": "2028-10-09",
+      "name": "한글날",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    },
+    {
+      "date": "2028-12-25",
+      "name": "기독탄신일",
+      "type": "public",
+      "isHoliday": true,
+      "dayOfWeek": "Mon"
+    }
+  ]
+}

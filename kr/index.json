@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "KR",
-  "updatedAt": "2026-07-25T12:42:36Z",
+  "updatedAt": "2026-08-01T20:57:01Z",
   "years": {
     "2026": {
       "file": "2026.json",
@@ -16,6 +16,13 @@
       "revision": 1,
       "hash": "sha256:9a0519cc99e7a92fc3b291e5ea75e472fdfcec48a20be4831b753c1670cb14e7",
       "count": 24
+    },
+    "2028": {
+      "file": "2028.json",
+      "updatedAt": "2026-08-01T20:57:01Z",
+      "revision": 1,
+      "hash": "sha256:60de4789eb5bd22c3a8055c4c5b8b95926dd9990dae6b83f21f6f01834cd697b",
+      "count": 19
     }
   }
 }
