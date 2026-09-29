@@ -1,5 +1,5 @@
-### KR Holiday List
+### 대한민국 휴일 정보
 
-<!-- LAST_CHECKED: 2026-09-29 10:21:34 KST -->
+SOURCE: Anniversary Info on Korea Astronomy and Space Science Institute
 
 LAST_CHECKED: 2026-09-29 10:23:46 KST 
