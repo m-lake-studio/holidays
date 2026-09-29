@@ -44,7 +44,7 @@ jobs:
           if grep -q '^LAST_CHECKED: .* $' README.md; then
             sed -i "s|^LAST_CHECKED: .* $|LAST_CHECKED: ${NOW} |" README.md
           else
-            printf '\n<!-- LAST_CHECKED: %s -->\n' "${NOW}" >> README.md
+            printf '\nLAST_CHECKED: %s \n' "${NOW}" >> README.md
           fi
 
       - name: Commit & push if changed
