@@ -6,4 +6,4 @@ URL: https://m-lake-studio.github.io/holidays/kr/{year}.json
 
 #### You should cache the holiday information and update it weekly or monthly to avoid putting unnecessary load on the server.
 
-LAST_CHECKED: 2026-11-16 08:39:57 KST 
+LAST_CHECKED: 2026-11-23 09:33:44 KST 
